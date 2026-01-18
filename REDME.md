@@ -1,2 +1,0 @@
-# DockerLab
-Containerization Lab Programs
