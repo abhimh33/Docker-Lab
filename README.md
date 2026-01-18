@@ -32,28 +32,20 @@ A collection of Docker containerization examples demonstrating various Python an
 ### Programs
 
 ```bash
+#Make a Program  directory
+mkdir ProgramName
+
 # Navigate to Programs directory
-cd ProgramNames
+cd ProgramName
+
+#Create Python or Shell and DockerFile
+vim Program.py && vim DockerFile
 
 # Build the Docker image
 docker build -t PythonFileName .
 
 # Run the container
 docker run PythonFileName
-```
-
-### Program-7: Prime Number Checker
-Checks if a given number is prime or not
-
-```bash
-# Navigate to Program-7 directory
-cd Program-7
-
-# Build the Docker image
-docker build -t prime-app .
-
-# Run the container (interactive mode required for user input)
-docker run -it prime-app
 ```
 
 ### Build All Images
