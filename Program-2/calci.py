@@ -3,16 +3,16 @@ def calci():
     b = float(input("Enter a Second Number (b) : "))
     operation = input("Choose an Operation (+,-,*,/) : ")
     if operation == '+':
-        print("a + b : ", a+b)
+        print(f"{a} + {b} is : {a+b}")
     elif operation == '-':
-        print("a - b : ", a-b)
+        print(f"{a} - {b} is : {a-b}")
     elif operation == '*':
-        print("a * b : ",a*b)
+        print(f"{a} * {b} is : {a*b}")
     elif operation == '/':
         if(b == 0):
             print("Can't devide a number by Zero : ")
         else:
-            print("a / b : is ", a/b)
+            print(f"{a} / {b} is : {a/b}")
     else:
         print("Invalid Entry..!!, Choose Correct Option")
 calci()
